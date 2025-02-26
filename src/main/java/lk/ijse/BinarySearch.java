@@ -3,6 +3,7 @@ package lk.ijse;
 public class BinarySearch {
 
     public static void main(String[] args) {
+        System.out.println("killer");
         int[] arr = {11, 17, 18, 45, 50, 71, 95};  // Sorted array
         int target = 17;  // Number to search
         int result = searchNumber(arr, target);  // Call binary search function
